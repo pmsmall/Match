@@ -1,0 +1,324 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="剩余精力：50"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="#23238E"
+        android:id="@+id/textView"
+        android:background="@drawable/shell"
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button"
+                android:layout_column="1"
+                android:background="@drawable/one" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button2"
+                android:layout_column="2"
+                android:background="@drawable/two" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button3"
+                android:layout_column="3"
+                android:background="@drawable/three" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button4"
+                android:layout_column="4"
+                android:background="@drawable/four" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button5"
+                android:layout_column="5"
+                android:background="@drawable/five" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button6"
+                android:layout_column="1"
+                android:background="@mipmap/logo" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button7"
+                android:layout_column="2" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button8"
+                android:layout_column="3" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button9"
+                android:layout_column="4" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button10"
+                android:layout_column="5" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button11"
+                android:layout_column="1" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button12"
+                android:layout_column="2" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button13"
+                android:layout_column="3" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button14"
+                android:layout_column="4" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button15"
+                android:layout_column="5" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button16"
+                android:layout_column="1" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button17"
+                android:layout_column="2" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button18"
+                android:layout_column="3" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button19"
+                android:layout_column="4" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button20"
+                android:layout_column="5" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button21"
+                android:layout_column="1" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button22"
+                android:layout_column="2" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button23"
+                android:layout_column="3" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button24"
+                android:layout_column="4" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button25"
+                android:layout_column="5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button26"
+                android:layout_column="1" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button27"
+                android:layout_column="2" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button28"
+                android:layout_column="3" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button29"
+                android:layout_column="4" />
+
+            <Button
+                android:layout_width="65.3dp"
+                android:layout_height="65.3dp"
+                android:id="@+id/button30"
+                android:layout_column="5" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignBottom="@+id/tableLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:weightSum="1"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="现在的分数是："
+            android:id="@+id/textView2"
+            android:layout_gravity="bottom"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="44dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="0"
+            android:id="@+id/textView3"
+            android:layout_gravity="bottom"
+            android:textSize="25sp"/>
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:text=""
+            android:id="@+id/button31"
+            android:layout_gravity="bottom"
+            android:background="@drawable/reset" />
+    </LinearLayout>
+
+</RelativeLayout>
